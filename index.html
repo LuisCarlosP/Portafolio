@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Responsive dropdown menu - Bedimcode</title>
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="#" class="nav__logo">
+                    <i class="ri-shield-keyhole-line"></i> Luis Carlos
+                </a>
+                
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__burger"></i>
+                    <i class="ri-close-line nav__close"></i>
+                </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#Home" data-i18n="home" class="nav__link">Sobre mí</a></li>
+                    <li><a href="#about" data-i18n="about" class="nav__link">Sobre mí</a></li>
+                    <li><a href="#projects" data-i18n="projects" class="nav__link">Proyectos</a></li>
+                    <li><a href="#skills" data-i18n="skills" class="nav__link">Habilidades</a></li>
+                    <li><a href="#contact" data-i18n="contact" class="nav__link">Contacto</a> </li>
+                    <!--=============== DROPDOWN 1 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link" data-i18n="Languages">Lenguaje<i class="ri-translate-2"></i></div>
+                
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="#" class="dropdown__link" data-language="es">
+                                    <span data-i18n="Spanish">Español</span>
+                                </a>                          
+                            </li>
+                
+                            <li>
+                                <a href="#" class="dropdown__link" data-language="en">
+                                    <span data-i18n="English"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+         <!--=============== HOME SECTION ===============-->
+         <section id="Home" class="home">
+            <div class="container">
+                <div class="home__content">
+                    <div class="home__text">
+                        <h1 data-i18n="HomeTextH1">Hola, soy Luis Carlos</h1>
+                        <h2 data-i18n="HomeTextH2">Soy un ingeniero de Software</h2>
+                        <p data-i18n="HomeTextP">Soy un desarrollador web de Costa Rica. Me encanta crear sitios web y aplicaciones web. Me gusta aprender nuevas tecnologías y mejorar mis habilidades.</p>
+                        <div class="Websites">
+                            <a href="https://www.linkedin.com/in/luis-carlos-picado-rojas-6b035227a/" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+                            <a href="https://github.com/LuisCarlosPicadoRojas" target="_blank"><i class="ri-github-fill"></i></a>
+                            <div class="downloadCV">
+                                <a href="CV_LuisCarlosPicadoRojas.pdf" download>
+                                    <button class="CV" data-i18n="DownloadCV">Descargar CV</button>
+                                </a>
+                            </div>
+                        </i></div>
+                    </div>
+                    <div class="home__image">
+                        <img src="img/img1.png" alt="Imagen de inicio">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--=============== MAIN JS ===============-->
+    <script src="script.js"></script>
+</body>
+</html>
