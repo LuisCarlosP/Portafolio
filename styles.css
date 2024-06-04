@@ -1,6 +1,6 @@
-
 :root {
   --header-height: 3.5rem;
+  --pure-black: hsl(0, 4%, 5%);
   --black-color: hsl(220, 24%, 12%);
   --black-color-light: hsl(220, 24%, 15%);
   --black-color-lighten: hsl(220, 20%, 18%);
@@ -8,7 +8,8 @@
   --vivid-sky-blue: hsla(193, 95%, 65%, 1);
   --dark-blue: rgb(0, 23, 116);
   --white-color: #fff;
-  --body-color: hsl(220, 100%, 97%);
+  --White-light: hsl(220, 100%, 97%);
+  --body-color: hsl(220, 20%, 18%);
   --body-font: "Montserrat", sans-serif;
   --normal-font-size: .938rem;
   --font-regular: 400;
@@ -334,6 +335,7 @@ a:hover {
 }
 
 .home__text h1 {
+  color: var(--white-color);
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
@@ -345,15 +347,18 @@ a:hover {
 }
 
 .home__text p {
+  color: var(--white-color);
   font-size: 1.1rem;
   line-height: 1.6;
 }
 .home__content {
   margin-top: 200px;
+  margin-bottom: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  background-color: var();
 }
 
 .home__image {
@@ -366,24 +371,76 @@ a:hover {
 }
 
 .Websites button:hover {
-  background-color: var(--dark-blue);
+  color: var(--White-light);
 }
 
 .Websites i {
+  color: var(--white-color);
   font-size: 2.3rem;
   cursor: pointer;
   transition: transform 0.3s; 
 }
 .Websites i:hover {
+  color: var(--vivid-sky-blue);
   transform: scale(1.2);
 }
 
 .Websites button {
   margin-left: 1rem;
 }
+
+.about {
+  padding: 1rem 0;
+  text-align: center;
+  background:  var(--black-color-lighten);
+  background-size: cover;
+  background-blend-mode: overlay;
+  margin-bottom: 100px;
+}
+
+.about__image img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+.about__text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--white-color);
+}
+
+.about__text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--white-color);
+}
+
+.about__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.6)
+}
+
+.about__image {
+  flex: 1;
+  margin-right: 2rem;
+}
+
+.about__text {
+  flex: 1;
+}
+
 @media screen and (max-width: 767px) {
   .home__content {
     margin-top: 30px;
+    margin-bottom: 30px;
     flex-direction: column-reverse;
   }
   .home__image {
@@ -413,6 +470,24 @@ a:hover {
   .Websites button {
     width: 100%;
     margin: 1rem 0;
+  }
+  .about__content {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .about__image {
+      margin-left: 30px;
+      margin-bottom: 2rem;
+  }
+  .about__image img {
+      width: 200px;
+      height: 200px;
+  }
+  .about__text h1 {
+      font-size: 2rem;
+  }
+  .about__text p {
+      font-size: 1rem;
   }
 }
 
