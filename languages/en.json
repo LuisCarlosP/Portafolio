@@ -13,5 +13,12 @@
     "HomeTextP": "Enjoy creating websites and applications. I love learning new technologies, constantly improving my skills, and exploring innovative solutions.",
     "DownloadCV": "Download CV",
     "AboutMeH1": "About Me",
-    "AboutMeP": "I am a 19 years old software engineer graduated from CENFOTEC, passionate about developing and implementing innovative technological solutions. During my academic training, I acquired solid knowledge in various languages and technologies such as JavaScript, Java, C#, Python, CSS, HTML, SQL, and NoSQL. Although I have no professional work experience yet, I have worked on several academic and personal projects that have allowed me to develop practical skills and an analytical approach to solving complex problems."
+    "AboutMeP": "I am a 19 years old software engineer graduated from CENFOTEC, passionate about developing and implementing innovative technological solutions. During my academic training, I acquired solid knowledge in various languages and technologies such as JavaScript, Java, C#, Python, CSS, HTML, SQL, and NoSQL. Although I have no professional work experience yet, I have worked on several academic and personal projects that have allowed me to develop practical skills and an analytical approach to solving complex problems.",
+    "ProjectsH1": "Projects",
+    "VeterinaryH2": "Veterinary",
+    "VeterinaryP": "Program designed in Java for the management of a veterinary clinic. This system allows managing appointments, registering animal and owner data, as well as scheduling reservations at pet hotels.",
+    "PCStoreH2": "Computer Store",
+    "PCStoreP": "Program designed in Java for the management of a computer store. This system allows managing product inventory, registering sales, and keeping track of customers.",
+    "PortofolioH2": "Portfolio",
+    "PortofolioP": "This portfolio is designed to showcase my projects and skills, highlighting my experience and capabilities in various areas."
 }
