@@ -418,7 +418,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: 120px;
+  margin-top: 240px;
   margin-bottom: 120px;
   padding: 2rem;
   background: rgba(0, 0, 0, 0.6)
@@ -468,6 +468,7 @@ a:hover {
     margin: 1rem 0;
   }
   .about__content {
+    margin-top: 120px;
     flex-direction: column;
     padding: 1rem;
   }
