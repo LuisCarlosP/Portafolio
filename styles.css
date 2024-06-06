@@ -508,7 +508,7 @@ a:hover {
   transform: scale(1.05);
 }
 .projects {
-  padding: 4rem 0;
+  padding: 8rem 0;
   text-align: center;
   background-color: var(--black-color-lighten);
 }
@@ -550,6 +550,55 @@ a:hover {
 }
 
 .project__item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+}
+
+.skills {
+  padding: 8rem 0;
+  text-align: center;
+  background-color: var(--black-color-lighten);
+}
+
+.skills__title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: var(--white-color);
+}
+
+.skills__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.skill__item {
+  background-color: var(--black-color-light);
+  padding: 2rem;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+}
+
+.skill__icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: var(--vivid-sky-blue);
+  transition: color 0.3s;
+}
+
+.skill__item h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--vivid-sky-blue);
+}
+
+.skill__item p {
+  font-size: 1rem;
+  color: var(--white-color);
+}
+
+.skill__item:hover {
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
 }
