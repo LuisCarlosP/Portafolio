@@ -1,4 +1,3 @@
-
 const showMenu = (toggleId, navId) => {
     const toggle = document.getElementById(toggleId),
           nav = document.getElementById(navId);
@@ -12,13 +11,14 @@ const showMenu = (toggleId, navId) => {
     dropdownLinks.forEach(link => {
         link.addEventListener('click', () => {
             const language = link.getAttribute('data-language');
+            localStorage.setItem('selectedLanguage', language);
             changeLanguage(language);
         });
     });
 }
 
-const currentLanguage = "es"; 
-changeLanguage(currentLanguage);
+const storedLanguage = localStorage.getItem('selectedLanguage') || "es"; 
+changeLanguage(storedLanguage);
 
 function changeLanguage(language) {
     fetch(`languages/${language}.json`)
