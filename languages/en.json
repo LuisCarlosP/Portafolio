@@ -18,9 +18,9 @@
     "VeterinaryH2": "Veterinary",
     "VeterinaryP": "Program designed in Java for the management of a veterinary clinic. This system allows managing appointments, registering animal and owner data, as well as scheduling reservations at pet hotels.",
     "PCStoreH2": "Computer Store",
-    "PCStoreP": "Program designed in Java for the management of a computer store. This system allows managing product inventory, registering sales, and keeping track of customers.",
-    "PortofolioH2": "Portfolio",
-    "PortofolioP": "This portfolio is designed to showcase my projects and skills, highlighting my experience and capabilities in various areas.",
+    "PCStoreP": "Program designed in Java for school management. This system implemented in Java Swing allows the management of students, teachers, courses, and groups.",
+    "SchoolH2": "School",
+    "SchoolP": "Program",
     "SkillsH1": "Skills",
     "Contact": "Contact",
     "SocialMedia": "Social Media"

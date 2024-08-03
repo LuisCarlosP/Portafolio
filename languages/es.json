@@ -19,8 +19,8 @@
     "VeterinaryP": "Programa diseñado en Java para el manejo de una veterinaria. Este sistema permite gestionar las citas, registrar los datos de los animales y sus dueños, así como programar reservas en hoteles para mascotas.",
     "PCStoreH2": "Tienda de computadoras",
     "PCStoreP": "Programa diseñado en Java para el manejo de una tienda de computadoras. Este sistema permite gestionar el inventario de productos, registrar las ventas, y llevar un control de los clientes.",
-    "PortofolioH2": "Portafolio",
-    "PortofolioP": "Este portafolio está diseñado para mostrar mis proyectos y habilidades, destacando mi experiencia y capacidades en diversas áreas.",
+    "SchoolH2": "Escuela",
+    "SchoolP": "Programa diseñado en java para el manejo de una escuela. Este sistema implementado en java swing permite la gestion de los estudiantes, profesores, cursos y grupos.",
     "SkillsH1": "Habilidades",
     "Contact": "Contacto",
     "SocialMedia": "Redes sociales"
